@@ -1,0 +1,7 @@
+{
+  "version": 2,
+  "rewrites": [
+    { "source": "/api/:endpoint", "destination": "/api/index?endpoint=:endpoint" },
+    { "source": "/api", "destination": "/api/index" }
+  ]
+}
